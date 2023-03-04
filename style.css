@@ -22,6 +22,7 @@
 body {
   font-family: var(--lexa-deca);
   height: 100vh;
+  padding: 20px;
 }
 
 .container {
