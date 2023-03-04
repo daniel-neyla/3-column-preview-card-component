@@ -95,3 +95,31 @@ body {
   color: #fff;
   box-sizing: border-box;
 }
+
+@media (max-width: 375px) {
+  body {
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 80px 25px;
+    position: static;
+    /* top: 0; */
+    transform: translateY(0);
+  }
+
+  .card:nth-child(1) {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+
+  .card:nth-child(3) {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+
+  .card-text {
+    margin-bottom: 1.5rem;
+  }
+}
